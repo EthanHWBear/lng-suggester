@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(141, 167, 224);
+  background-color: rgb(70, 57, 255);
   color: darkblue;
   text-align: center;
   padding-left: 20%;
@@ -11,8 +11,10 @@ img {
 }
 
 h1 {
+  font-family: 'Courier New', Courier, monospace;
   text-decoration: underline;
-  color: firebrick;
+  color: rgb(255, 252, 52);
+  background-color: rgb(41, 245, 0);
   background-image: -moz-repeating-radial-gradient(src="hacker.jpg");
 }
 
@@ -25,16 +27,16 @@ h3 {
 .box {
   
   padding: 20px;
-  border: solid rgb(116, 0, 0);
+  border: solid rgb(30, 70, 201);
   border-width: 20px;
-  background-color: rgb(146, 116, 255);
+  background-color: rgb(119, 151, 221);
   margin-bottom: 10px;
 }
 
 .lalala {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: hsl(271, 93%, 72%);
+  background-color: rgb(130, 219, 247);
   border-radius: 0.3rem;
 }
 
@@ -51,5 +53,10 @@ h3 {
 }
 
 #psyche {
-  background-color: rgb(219, 46, 196);
+  background-color: rgb(252, 77, 228);
+  padding: 20px;
+  border: solid rgb(240, 134, 226);
+  border-width: 10px;
+  margin-bottom: 10px;
+
 }

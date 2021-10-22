@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     if (result <=7) {
       $("#yes").fadeToggle();
-    } else if (result ===11) {
+    } else if (result ===10) {
       $("#no").fadeToggle();
     } else {
       $("#perhaps").fadeToggle();

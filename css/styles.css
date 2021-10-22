@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(167, 178, 202);
+  background-color: rgb(141, 167, 224);
   color: darkblue;
   text-align: center;
   padding-left: 20%;
@@ -22,8 +22,20 @@ h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.headline {
-  background-color: wheat;
+.box {
+  
+  padding: 20px;
+  border: solid rgb(116, 0, 0);
+  border-width: 20px;
+  background-color: rgb(146, 116, 255);
+  margin-bottom: 10px;
+}
+
+.lalala {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: hsl(271, 93%, 72%);
+  border-radius: 0.3rem;
 }
 
 #yes {

@@ -7,9 +7,9 @@ $(document).ready(function() {
     const season = parseInt($("input:radio[name=season]:checked").val());
     const result = (bees+orange+foil+pillow+season);
 
-    if (result <=8) {
+    if (result <=7) {
       $("#yes").fadeToggle();
-    } else if (result ===12) {
+    } else if (result ===11) {
       $("#no").fadeToggle();
     } else {
       $("#perhaps").fadeToggle();
